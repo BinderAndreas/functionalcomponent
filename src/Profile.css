@@ -1,0 +1,34 @@
+.quotecard-container {
+    background-color: rgb(50, 102, 191);
+    height: 40vh;
+    width: 30ch;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.quotecard-container img {
+    height: 20vh;
+    border-radius: 8px;
+    
+}
+
+.quotecard-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.quotecard-container button {
+    background-color: orange;
+    border: 0px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: white;
+    font-size: 10px;
+}

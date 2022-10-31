@@ -1,0 +1,36 @@
+.header-containter {
+    background-color: rgb(51, 153, 212);
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 4vh;
+    border-radius: 100%;
+}
+
+.profile {
+    display: flex;
+    width: 120px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.profile p {
+    font-size: 12px;
+}
+
+.header-containter button {
+    margin-right: 10px;
+    background-color: orange;
+    border: 0px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: white;
+    font-size: 10px;
+    height: 3vh;
+}
