@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
 
     const [username, setUserName] = useState("John Doe");
-  const [imageUrl, setImageUrl] = useState("https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80")
+  const [imageUrl, setImageUrl] = useState("https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80");
 
 const changeuser=()=>{
   setUserName("Jane Doe")
